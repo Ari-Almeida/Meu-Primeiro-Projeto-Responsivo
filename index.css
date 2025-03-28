@@ -79,6 +79,45 @@ background: #ADFF00;
 border-radius: 50px;
 border: none;
 cursor: pointer;
+}
+@media screen and (max-width:900px) {
+    header {
+        display: none;
+    }
 
+    img {
+        display: block;
+        width: 354px;
+        height: 317px;
+        margin: 180px auto 0 auto;
 
+    }
+
+    div {
+        width: 390px;
+        height: 800px;
+        display: block;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+.centro{
+    margin-left: 50px;
+}
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+    }
+
+    h2 {
+        width: 232px;
+height: 37px;
+
+        font-size: 30px;
+    }
+
+    p {
+        display: none;
+    }
 }
